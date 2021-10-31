@@ -1,0 +1,30 @@
+{
+  "name": "predate",
+  "version": "0.1.0",
+  "description": "Functional time library with TypeScript in mind",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bikossor/predate.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "datetime",
+    "typescript",
+    "library"
+  ],
+  "author": "André Lichtenthäler",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Bikossor/predate/issues"
+  },
+  "homepage": "https://github.com/Bikossor/predate#readme"
+}
