@@ -8,7 +8,9 @@
     "dist/"
   ],
   "scripts": {
-    "test": "jest"
+    "build": "gulp",
+    "test": "jest",
+    "prepare": "gulp"
   },
   "repository": {
     "type": "git",
