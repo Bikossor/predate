@@ -1,4 +1,4 @@
-import { DateTime } from "./types";
+import { predate } from "./types";
 
 export function createDateTime(params: {
   year: number;
@@ -8,6 +8,6 @@ export function createDateTime(params: {
   minutes: number;
   seconds?: number;
   milliseconds?: number;
-}): DateTime {
+}): predate.DateTime {
   return { ...params };
 }

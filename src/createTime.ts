@@ -1,10 +1,10 @@
-import { Time } from "./types";
+import { predate } from "./types";
 
 export function createTime(time: {
   hours: number;
   minutes: number;
   seconds?: number;
   milliseconds?: number;
-}): Time {
+}): predate.Time {
   return { ...time };
 }
