@@ -1,4 +1,4 @@
-# `createTime()`
+# `createTime`
 
 ```ts
 function createTime(time: {

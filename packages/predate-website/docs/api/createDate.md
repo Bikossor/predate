@@ -1,4 +1,4 @@
-# `createDate()`
+# `createDate`
 
 ```ts
 function createDate(date: {

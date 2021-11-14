@@ -1,4 +1,4 @@
-# `change()`
+# `change`
 
 ```ts
 function change<T extends Date | DateTime | Time>(

@@ -1,4 +1,4 @@
-# `createDateTime()`
+# `createDateTime`
 
 ```ts
 function createDateTime(params: {
