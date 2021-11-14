@@ -4,32 +4,5 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+`predate` was inspired by [`date-fns`](https://date-fns.org/) but it's from the ground up considered to be used with [`TypeScript`](https://www.typescriptlang.org/).
+One of the key difference is that `predate` uses three different main types ([`Date`](/docs/api/types/Date), [`Time`](/docs/api/types/Time) and [`DateTime`](/docs/api/types/DateTime)) to represent your data.
