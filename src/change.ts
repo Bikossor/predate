@@ -1,6 +1,6 @@
-import { Date, DateTime, Time } from ".";
+import { predate } from "./types";
 
-export function change<T extends Date | DateTime | Time>(
+export function change<T extends predate.Date | predate.DateTime | predate.Time>(
   toChange: T,
   value: number,
   key: keyof T

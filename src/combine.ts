@@ -1,5 +1,5 @@
-import { Date, DateTime, Time } from "./types";
+import { predate } from "./types";
 
-export function combine(date: Date, time: Time): DateTime {
+export function combine(date: predate.Date, time: predate.Time): predate.DateTime {
   return { ...date, ...time };
 }
