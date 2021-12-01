@@ -1,6 +1,6 @@
-import * as predate from "./";
+import * as predate from ".";
 
-export function getTime(dateTime: predate.DateTime): predate.Time {
+export function extractTime(dateTime: predate.DateTime): predate.Time {
   return {
     hours: dateTime.hours,
     minutes: dateTime.minutes,
