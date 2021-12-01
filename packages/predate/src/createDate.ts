@@ -1,9 +1,9 @@
-import { predate } from "./types";
+import * as predate from "./";
 
 export function createDate(date: {
-  year: number;
-  month: number;
-  day: number;
+  readonly year: number;
+  readonly month: number;
+  readonly day: number;
 }): predate.Date {
   return { ...date };
 }

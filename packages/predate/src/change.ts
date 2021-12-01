@@ -1,4 +1,4 @@
-import { predate } from "./types";
+import * as predate from "./";
 
 export function change<T extends predate.Date | predate.DateTime | predate.Time>(
   toChange: T,
