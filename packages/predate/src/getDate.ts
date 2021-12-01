@@ -1,4 +1,4 @@
-import { predate } from "./types";
+import * as predate from "./";
 
 export function getDate(dateTime: predate.DateTime): predate.Date {
   return {
