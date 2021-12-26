@@ -10,7 +10,9 @@
   "scripts": {
     "build": "gulp",
     "test": "jest",
-    "prepare": "gulp"
+    "prepare": "gulp",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -40,6 +42,7 @@
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "merge2": "^1.4.1",
+    "prettier": "2.5.1",
     "ts-node": "^10.4.0",
     "tsutils": "^3.21.0",
     "typescript": "^4.4.4"
