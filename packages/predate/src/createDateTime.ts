@@ -1,5 +1,10 @@
 import * as predate from "./";
 
+/**
+ * Creates a new `DateTime` from the given parameters.
+ * @param date
+ * @returns
+ */
 export function createDateTime(params: {
   readonly year: number;
   readonly month: number;
