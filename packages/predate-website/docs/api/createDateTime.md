@@ -1,5 +1,7 @@
 # `createDateTime`
 
+Creates a new `DateTime` from the given parameters.
+
 ```ts
 function createDateTime(params: {
   year: number;
