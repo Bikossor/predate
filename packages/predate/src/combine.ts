@@ -1,4 +1,4 @@
-import * as predate from "./";
+import { PreDate, PreDateTime, PreTime } from "./types";
 
 /**
  * Combines a given `Date` and `Time` into a new `DateTime`.
@@ -6,9 +6,6 @@ import * as predate from "./";
  * @param time
  * @returns
  */
-export function combine(
-  date: predate.Date,
-  time: predate.Time
-): predate.DateTime {
+export function combine(date: PreDate, time: PreTime): PreDateTime {
   return { ...date, ...time };
 }

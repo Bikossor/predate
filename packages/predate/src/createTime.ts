@@ -1,4 +1,4 @@
-import * as predate from "./";
+import { PreTime } from "./types";
 
 /**
  * Creates a new `Time` from the given parameters.
@@ -10,6 +10,6 @@ export function createTime(time: {
   readonly minutes: number;
   readonly seconds?: number;
   readonly milliseconds?: number;
-}): predate.Time {
+}): PreTime {
   return { ...time };
 }

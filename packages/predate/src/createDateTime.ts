@@ -1,4 +1,4 @@
-import * as predate from "./";
+import { PreDateTime } from "./types";
 
 /**
  * Creates a new `DateTime` from the given parameters.
@@ -13,6 +13,6 @@ export function createDateTime(params: {
   readonly minutes: number;
   readonly seconds?: number;
   readonly milliseconds?: number;
-}): predate.DateTime {
+}): PreDateTime {
   return { ...params };
 }
