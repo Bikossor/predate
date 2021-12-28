@@ -1,6 +1,6 @@
 # `createDateTime`
 
-Creates a new `DateTime` from the given parameters.
+Creates a new `PreDateTime` from the given parameters.
 
 ```ts
 function createDateTime(params: {
@@ -11,5 +11,5 @@ function createDateTime(params: {
   minutes: number;
   seconds?: number;
   milliseconds?: number;
-}): DateTime;
+}): PreDateTime;
 ```

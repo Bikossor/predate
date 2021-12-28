@@ -1,7 +1,7 @@
 # `extractTime`
 
-The `extractTime` function returns just the [`Time`](/docs/api/types/Time) part of a given [`DateTime`](/docs/api/types/DateTime).
+The `extractTime` function returns just the [`PreTime`](/docs/api/types/PreTime) part of a given [`PreDateTime`](/docs/api/types/PreDateTime).
 
 ```ts
-function extractTime(dateTime: predate.DateTime): predate.Time;
+function extractTime(dateTime: PreDateTime): PreTime;
 ```

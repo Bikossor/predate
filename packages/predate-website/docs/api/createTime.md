@@ -1,6 +1,6 @@
 # `createTime`
 
-Creates a new `Time` from the given parameters.
+Creates a new `PreTime` from the given parameters.
 
 ```ts
 function createTime(time: {
@@ -8,5 +8,5 @@ function createTime(time: {
   minutes: number;
   seconds?: number;
   milliseconds?: number;
-}): Time;
+}): PreTime;
 ```

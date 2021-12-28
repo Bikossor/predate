@@ -1,7 +1,7 @@
 # `combine`
 
-Combines a given `Date` and `Time` into a new `DateTime`.
+Combines a given `PreDate` and `PreTime` into a new `PreDateTime`.
 
 ```ts
-function combine(date: Date, time: Time): DateTime;
+function combine(date: PreDate, time: PreTime): PreDateTime;
 ```
