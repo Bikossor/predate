@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'predate',
   tagline: 'Functional time library with TypeScript in mind',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://predate.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
