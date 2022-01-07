@@ -55,7 +55,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Bikossor/predate',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,7 +91,7 @@ const config = {
             items: [
               {
                 label: 'npm',
-                href: 'https://github.com/packages/predate',
+                href: 'https://npmjs.com/packages/predate',
               },
               {
                 label: 'GitHub',
