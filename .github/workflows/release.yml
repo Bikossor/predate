@@ -8,6 +8,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    working-directory: package/predate/
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -18,11 +19,9 @@ jobs:
         with:
           node-version: 'lts/*'
       - name: Install dependencies
-        run: cd packages/predate/
         run: npm ci
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: cd packages/predate/
         run: npx semantic-release
