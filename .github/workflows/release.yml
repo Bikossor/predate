@@ -8,7 +8,9 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    working-directory: package/predate/
+    defaults:
+      run:
+        working-directory: ./package/predate/
     steps:
       - name: Checkout
         uses: actions/checkout@v2
