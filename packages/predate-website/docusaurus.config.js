@@ -4,6 +4,10 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const packageLink = {
+  npm: 'https://npmjs.com/package/predate'
+};
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'predate',
@@ -50,7 +54,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://www.npmjs.com/package/predate',
+            href: packageLink.npm,
             label: 'npm',
             position: 'right',
           },
@@ -91,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'npm',
-                href: 'https://npmjs.com/packages/predate',
+                href: packageLink.npm,
               },
               {
                 label: 'GitHub',
