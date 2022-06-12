@@ -23,8 +23,8 @@ describe("change", () => {
   });
 
   it("should change a PreTime correctly", () => {
-    const time = createTime.fromArray([12,0]);
-    const expectedTime = createTime.fromArray([13,0]);
+    const time = createTime.fromArray([12, 0]);
+    const expectedTime = createTime.fromArray([13, 0]);
 
     const actualTime = change(time, 1, "hours");
 
