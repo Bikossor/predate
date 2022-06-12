@@ -6,3 +6,6 @@ export * from "./createDateTime";
 export * from "./createTime";
 export * from "./extractDate";
 export * from "./extractTime";
+export * from "./isDateEqual";
+export * from "./isDateTimeEqual";
+export * from "./isTimeEqual";
