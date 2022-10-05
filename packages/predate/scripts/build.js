@@ -13,7 +13,7 @@ const build = async () => {
   console.log("[✔] Done cleaning up files!");
 
   console.log("[i] Building TypeScript...");
-  execSync("npx tsc");
+  execSync("npx tsc -p tsconfig.build.json");
   console.log("[✔] Done building TypeScript!");
 };
 
