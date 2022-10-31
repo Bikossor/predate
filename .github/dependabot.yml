@@ -6,7 +6,16 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/packages/predate"
+    schedule:
+      interval: "weekly"
+      day: "thursday"
+    labels:
+      - "dependencies: npm"
+    reviewers:
+      - "bikossor"
+  - package-ecosystem: "npm"
+    directory: "/packages/predate-website"
     schedule:
       interval: "weekly"
       day: "thursday"
