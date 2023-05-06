@@ -4,7 +4,8 @@
     "module": "CommonJS",
     "outDir": "dist/",
     "pretty": true,
-    "declaration": true
+    "declaration": true,
+    "types": ["@types/node", "@types/jest"]
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"],
