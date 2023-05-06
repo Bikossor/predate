@@ -1,8 +1,8 @@
 // https://kulshekhar.github.io/ts-jest/docs/getting-started/presets/#advanced
-import type { InitialOptionsTsJest } from "ts-jest";
+import type { JestConfigWithTsJest } from "ts-jest";
 import { defaults as tsjPreset } from "ts-jest/presets";
 
-const config: InitialOptionsTsJest = {
+const config: JestConfigWithTsJest = {
   transform: {
     ...tsjPreset.transform,
   },
