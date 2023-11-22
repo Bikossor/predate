@@ -1,6 +1,6 @@
 /* eslint-disable functional/functional-parameters */
 /* eslint-disable functional/no-return-void */
-/* eslint-disable functional/no-expression-statement */
+/* eslint-disable functional/no-expression-statements */
 import { createDate } from "./createDate";
 import { createDateTime } from "./createDateTime";
 import { isDateEqual } from "./isDateEqual";
